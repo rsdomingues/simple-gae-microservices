@@ -2,7 +2,7 @@
 Simple Gae Microservices, with multiple tecnologies. This project is to be used as an example to implement microservices architecture on GAE, with diferente tecnologies as base. This simple example was created on based on the documentation in https://cloud.google.com/appengine/docs/python/microservices-on-app-engine
 
 Actualy this is the app instances:
-[instances](https://raw.githubusercontent.com/rsdomingues/simple-gae-microservices/master/microservices-instances.png)
+![instances](https://raw.githubusercontent.com/rsdomingues/simple-gae-microservices/master/microservices-instances.png "Microservices instances")
 
 ## Local installation
 This are the dependencies that must be installed on the local machine:
@@ -32,7 +32,7 @@ dev_appserver.py dispatch/dispatch.yaml front/front.yaml hello/hello.yaml repeat
 
 Then just open the browser and accesss http://localhost:8080/index.html
 
-[baseapp](https://github.com/rsdomingues/simple-gae-microservices/blob/master/web-page.png?raw=true)
+![baseapp](https://github.com/rsdomingues/simple-gae-microservices/blob/master/web-page.png?raw=true "Application Preview")
 
 Obs:
  - Google Cloud restrictions must be meet, like JDK 7. 
