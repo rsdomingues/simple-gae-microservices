@@ -1,9 +1,8 @@
 application: gae-microservices
 module: hello
-runtime: python27
-api_version: 1
-threadsafe: true
+runtime: go
+api_version: go1
 
 handlers:
 - url: /.*
-  script: main.app
+  script: _go_app

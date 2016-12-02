@@ -14,6 +14,7 @@ cd <cloud_sdk_dir>
 ./google-cloud-sdk/bin/gcloud init
 gcloud components install app-engine-java
 gcloud components install app-engine-python
+gcloud components install app-engine-go
 ```
 
 After that you can clone and execute this sample app.
