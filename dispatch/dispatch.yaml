@@ -1,0 +1,9 @@
+application: gae-microservices
+
+dispatch:
+  - url: "*/repeat/*"
+    module: repeat
+  - url: "*/hello/*"
+    module: hello
+  - url: "*/time/*"
+    module: time
